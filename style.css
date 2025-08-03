@@ -1,0 +1,65 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  padding: 0px;
+  background-image: url('tv\ satand.jpg')
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  font-size: 4em;
+  margin-top: 0px;font-weight: 900;
+}
+h1:hover{
+  transform: scale(1.1);
+}
+p1{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+.btnholder{
+  border-radius: 2px solid black;
+  margin-top: 600px ;
+  padding: 50px;
+  padding: 20px;
+  
+}
+.loginBtn{
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+  
+} 
+.loginBtn:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+.signupBtn{
+  background-color: white;
+  color: black;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+}
+.signupBtn:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+.tvstand{
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
